@@ -4,15 +4,11 @@
  *
  * Return: 1 if c is lowercase 0 otherwise
  */
-int _islower(char c)
+int _islower(int c)
 {
-	char ch = 'a';
 
-	while (ch <= 'z')
-	{
-		if (ch == c)
-			return (1);
-		ch++;
-	}
-	return (0);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
