@@ -1,6 +1,7 @@
 /**
  * add - adds two integers and returns the result.
- * @n and @m : represente 2 integers
+ * @n: integer added to m
+ * @m: integer added to n
  *
  * Return: the adds of n and m
  */
