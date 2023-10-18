@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * this function prints the alphabet, in lowercase, followed by a new line
  */
 void print_alphabet(void)
@@ -10,6 +10,5 @@ void print_alphabet(void)
 	{
 		_putchar(ch);
 	}
-
-       	_putchar('\n');
+	_putchar('\n');
 }
