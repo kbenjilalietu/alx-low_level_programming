@@ -11,9 +11,7 @@ int main(void)
 	
 	j = 1;
 	k = 2;
-	
 	printf("%lu, %lu", j, k);
-	
 	for (i = 3; i <= 50; i++)
 	{
 		next = j + k;
