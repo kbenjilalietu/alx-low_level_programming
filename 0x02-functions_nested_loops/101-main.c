@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-    sum_natural(10);
-    _putchar('\n');
-    sum_natural(25);
-    _putchar('\n'); 
-    return (0);
+	int r;
+	r = sum_natural();
+	_putchar(r);
+	_putchar('\n');
+	return (0);
 }

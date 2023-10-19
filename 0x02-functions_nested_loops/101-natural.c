@@ -4,18 +4,18 @@
  * @n: the number that will exetract it's natural
  * 
  */
-void sum_natural(int n)
+int sum_natural()
 {
-	int i, sum = 0;
-
-	if (n < 1024)
+	int i;
+	int sum = 0;
+	
+	for (i = 0; i < 1024; i++)
 	{
-		for (i = 0; i < n; i++)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			if ((i % 3 == 0) || (i % 5 == 0))
-				sum = sum + i;
+			sum += i;
 		}
-		printf("%d\n", sum);
 	}
-	return;
+	printf("%d\n", sum);
+	return (0);
 }
