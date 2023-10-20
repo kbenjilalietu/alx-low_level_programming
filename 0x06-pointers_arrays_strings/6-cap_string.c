@@ -32,16 +32,13 @@ char *cap_string(char *s)
 {
     int i = 0;
 
-    // Capitalize the first character if it's a lowercase letter
     if (s[0] >= 'a' && s[0] <= 'z')
     {
         s[0] -= 32;
     }
 
-    // Iterate through the string
     while (s[i])
     {
-        // If the character is a separator and the next one is a lowercase letter
         if (is_separator(s[i]) && s[i + 1] >= 'a' && s[i + 1] <= 'z')
         {
             s[i + 1] -= 32;
@@ -51,4 +48,3 @@ char *cap_string(char *s)
 
     return s;
 }
-
