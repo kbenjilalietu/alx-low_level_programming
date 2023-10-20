@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * positive_or_negative - Determines if a number is positive, negative or 0.
+ * positive_or_negative - Determines if a number is positive, not or 0.
  * @n:  Intger number that will be tested its single
  */
 void positive_or_negative(int n)
