@@ -3,14 +3,14 @@
 /**
  * puts_half - prints half of a string, followed by a new line.
  * @str: pointer to a string.
- * 
+ *
  * Return: void.
  */
 void puts_half(char *str)
 {
 	int length = 0;
 	int i, start;
-	
+
 	while (str[length] != '\0')
 	{
 		length++;
