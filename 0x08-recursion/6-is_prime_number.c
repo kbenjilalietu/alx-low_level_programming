@@ -9,10 +9,10 @@
 int check_divisor(int num, int divisor)
 {
 	if (num == divisor)
-		return 1;
+		return (1);
 	if (num % divisor == 0)
-		return 0;
-	return check_divisor(num, divisor + 1);
+		return (0);
+	return (check_divisor(num, divisor + 1));
 }
 /**
  * is_prime_number - checks if the number is a prime number.
@@ -23,6 +23,6 @@ int check_divisor(int num, int divisor)
 int is_prime_number(int n)
 {
 	if (n < 2)
-		return 0;
-	return check_divisor(n, 2);
+		return (0);
+	return (check_divisor(n, 2));
 }
