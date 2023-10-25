@@ -7,9 +7,9 @@
  *
  * Return: square root if found, otherwise -1
  */
-int sqrt_helper(int start, int end, int n)
+int sqrt_helper(long start, long end, int n)
 {
-	int mid;
+	long mid;
 
 	if (start > end)
 		return (-1);
