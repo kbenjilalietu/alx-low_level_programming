@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt_helper - recursively checks for the square root of a number.
+ * sqrt_helper - recursively checks for square root of a number.
  * @start: starting range
  * @end: ending range
  * @n: number to find the square root of
@@ -12,7 +12,7 @@ int sqrt_helper(int start, int end, int n)
 	int mid;
 
 	if (start > end)
-		return (-1);	
+		return (-1);
 	mid = (start + end) / 2;
 	if (mid * mid == n)
 		return (mid);
